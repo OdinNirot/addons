@@ -1,4 +1,4 @@
-EchoElement is a basic addon that takes a single argument (spell element) and returns it to the chat in the format:
+EchoElement is a basic addon that, using react, takes a single argument (spell element) and returns it to the chat in the format:
 
 [Absorbs]x --> [Weak to]y
 
