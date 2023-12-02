@@ -46,5 +46,27 @@ return {
             ["complete_reaction"]="", 
             ["ready_reaction"]="ee earth"
         }
+    },
+    ["Degei"]={
+        ["Eroding Flesh"]={
+            ["complete_reaction"]="", 
+            ["ready_reaction"]="ee wind"
+        }, 
+        ["Flashflood"]={
+            ["complete_reaction"]="", 
+            ["ready_reaction"]="ee thunder"
+        }, 
+        ["Icy Grasp"]={
+            ["complete_reaction"]="", 
+            ["ready_reaction"]="ee fire"
+        }, 
+        ["Flaming Kick"]={
+            ["complete_reaction"]="", 
+            ["ready_reaction"]="ee water"
+        }, 
+        ["Fulminous Smash"]={
+            ["complete_reaction"]="", 
+            ["ready_reaction"]="ee earth"
+        }
     }
 }
