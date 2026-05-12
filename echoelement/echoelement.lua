@@ -20,17 +20,17 @@ require('chat')
 
 function ee_command(cmd, ...)
     if cmd == 'fire' then
-		windower.add_to_chat(001,string.char(31,121).. '[Absorbs]' ..string.char(31,207).. 'ICE' ..string.char(31,121).. ' --> ' ..string.char(31,121).. '[Weak to]' ..string.char(31,39).. 'FIRE')
+		windower.add_to_chat(001,string.char(31,121).. '----------[Absorbs]' ..string.char(31,207).. 'ICE' ..string.char(31,121).. ' --> ' ..string.char(31,121).. '[Weak to]' ..string.char(31,39).. 'FIRE')
 	elseif cmd == 'ice' then
-		windower.add_to_chat(001,string.char(31,121).. '[Absorbs]' ..string.char(31,215).. 'WIND' ..string.char(31,121).. ' --> ' ..string.char(31,121).. '[Weak to]' ..string.char(31,207).. 'ICE')
+		windower.add_to_chat(001,string.char(31,121).. '----------[Absorbs]' ..string.char(31,215).. 'WIND' ..string.char(31,121).. ' --> ' ..string.char(31,121).. '[Weak to]' ..string.char(31,207).. 'ICE')
 	elseif cmd == 'wind' then
-		windower.add_to_chat(001,string.char(31,121).. '[Absorbs]' ..string.char(31,205).. 'EARTH' ..string.char(31,121).. ' --> ' ..string.char(31,121).. '[Weak to]' ..string.char(31,215).. 'WIND')
+		windower.add_to_chat(001,string.char(31,121).. '----------[Absorbs]' ..string.char(31,205).. 'EARTH' ..string.char(31,121).. ' --> ' ..string.char(31,121).. '[Weak to]' ..string.char(31,215).. 'WIND')
 	elseif cmd == 'earth' then
-		windower.add_to_chat(001,string.char(31,121).. '[Absorbs]' ..string.char(31,16).. 'THUNDER' ..string.char(31,121).. ' --> ' ..string.char(31,121).. '[Weak to]' ..string.char(31,205).. 'EARTH')
+		windower.add_to_chat(001,string.char(31,121).. '----------[Absorbs]' ..string.char(31,16).. 'THUNDER' ..string.char(31,121).. ' --> ' ..string.char(31,121).. '[Weak to]' ..string.char(31,205).. 'EARTH')
 	elseif cmd == 'thunder' then
-		windower.add_to_chat(001,string.char(31,121).. '[Absorbs]' ..string.char(31,219).. 'WATER' ..string.char(31,121).. ' --> ' ..string.char(31,121).. '[Weak to]' ..string.char(31,16).. 'THUNDER')
+		windower.add_to_chat(001,string.char(31,121).. '----------[Absorbs]' ..string.char(31,219).. 'WATER' ..string.char(31,121).. ' --> ' ..string.char(31,121).. '[Weak to]' ..string.char(31,16).. 'THUNDER')
 	elseif cmd == 'water' then
-		windower.add_to_chat(001,string.char(31,121).. '[Absorbs]' ..string.char(31,39).. 'FIRE' ..string.char(31,121).. ' --> ' ..string.char(31,121).. '[Weak to]' ..string.char(31,219).. 'WATER')
+		windower.add_to_chat(001,string.char(31,121).. '----------[Absorbs]' ..string.char(31,39).. 'FIRE' ..string.char(31,121).. ' --> ' ..string.char(31,121).. '[Weak to]' ..string.char(31,219).. 'WATER')
 --for testing
 --	elseif cmd == 'cure' then  
 --		windower.add_to_chat(001,string.char(31,121).. '[Absorbs]' ..string.char(31,39).. 'DARK' ..string.char(31,121).. ' --> ' ..string.char(31,121).. '[Weak to]' ..string.char(31,219).. 'CURE')
