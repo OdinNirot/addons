@@ -27,7 +27,30 @@ local tracked_spells = {
         buff = 'Enmity Boost',
         duration = 360,
     },
-	
+    Majesty = {
+        buff = 'Majesty',
+        duration = 300,
+    },
+    Enlight = {
+        buff = 'Enlight',
+        duration = 180,
+    },
+    Swordplay = {
+        buff = 'Swordplay',
+        duration = 180,
+    },
+    Foil = {
+        buff = 'Foil',
+        duration = 40,
+    },
+    Lux = {
+        buff = 'Lux',
+        duration = 300,
+    },
+    Pflug = {
+        buff = 'Pflug',
+        duration = 120,
+    },
 }
 
 local active_buffs = {}
